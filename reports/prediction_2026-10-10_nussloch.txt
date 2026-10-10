@@ -1,0 +1,10 @@
+Trainiert mit 1629 Ligaspielen aus 19 Dateien
+Zeitlicher Test: 408 Spiele | Accuracy 65.0% | Log Loss 0.765
+
+SG Nußloch 2 – TV Eppelheim 2
+Tipp: Heimsieg
+Heimsieg:      52.3%
+Unentschieden: 7.2%
+Auswärtssieg:  40.5%
+Erwartete Tore: 27.9 : 26.8
+Modell gespeichert: models/handball_model_v012.pkl

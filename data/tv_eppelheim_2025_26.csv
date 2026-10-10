@@ -1,0 +1,130 @@
+date,home_team,away_team,home_goals,away_goals
+2025-09-20,SG HD-Leimen,S3L Handball 3,36,24
+2025-09-20,TV Schriesheim,SG Nußloch,34,20
+2025-09-20,TV Eppelheim,TV Brühl,23,24
+2025-09-21,TSG Ketsch,SG Egg-Leo,31,25
+2025-09-27,SG Egg-Leo,TSG Dossenheim,35,16
+2025-09-28,SG Neuth/Büche,TSG Ketsch,45,24
+2025-09-28,SG Nußloch,SG HD-Leimen,30,31
+2025-09-28,TV Brühl,TV Schriesheim,25,28
+2025-10-03,HSV Hockenheim,TV Eppelheim,23,24
+2025-10-04,TV Schriesheim,SG Egg-Leo,32,28
+2025-10-05,SG Nußloch,S3L Handball 3,31,22
+2025-10-05,SG HD-Leimen,TV Brühl,36,27
+2025-10-05,TSG Dossenheim,SG Neuth/Büche,29,25
+2025-10-11,S3L Handball 3,HSV Hockenheim,31,34
+2025-10-11,TV Eppelheim,TV Hemsbach,22,21
+2025-10-11,SG Neuth/Büche,TV Schriesheim,33,32
+2025-10-12,SG Egg-Leo,SG HD-Leimen,25,35
+2025-10-12,TV Brühl,SG Nußloch,34,26
+2025-10-18,TV Hemsbach,HSV Hockenheim,38,31
+2025-10-19,SG HD-Leimen,SG Neuth/Büche,39,28
+2025-10-19,SG Nußloch,SG Egg-Leo,31,42
+2025-10-19,TSG Ketsch,TV Eppelheim,39,27
+2025-10-19,TV Brühl,S3L Handball 3,35,31
+2025-10-25,TSG Dossenheim,TV Eppelheim,18,27
+2025-10-25,S3L Handball 3,TV Hemsbach,28,31
+2025-10-26,SG Neuth/Büche,SG Nußloch,32,23
+2025-10-26,SG Egg-Leo,TV Brühl,27,28
+2025-10-26,HSV Hockenheim,TSG Ketsch,26,38
+2025-10-31,TV Schriesheim,TV Eppelheim,30,24
+2025-11-02,SG Egg-Leo,S3L Handball 3,35,31
+2025-11-02,TSG Ketsch,TV Hemsbach,32,31
+2025-11-02,TV Brühl,SG Neuth/Büche,37,32
+2025-11-02,TSG Dossenheim,HSV Hockenheim,23,29
+2025-11-08,TV Hemsbach,TSG Dossenheim,30,20
+2025-11-09,TSG Ketsch,S3L Handball 3,35,41
+2025-11-09,SG Neuth/Büche,SG Egg-Leo,32,24
+2025-11-09,HSV Hockenheim,TV Schriesheim,20,23
+2025-11-15,TV Hemsbach,TV Schriesheim,28,25
+2025-11-15,SG HD-Leimen,HSV Hockenheim,34,32
+2025-11-16,SG Nußloch,TV Eppelheim,22,34
+2025-11-22,TV Hemsbach,SG HD-Leimen,25,22
+2025-11-23,TSG Ketsch,TV Schriesheim,36,32
+2025-11-23,HSV Hockenheim,SG Nußloch,31,28
+2025-11-23,TSG Dossenheim,S3L Handball 3,40,24
+2025-11-28,TV Schriesheim,TSG Dossenheim,25,19
+2025-11-29,SG HD-Leimen,TSG Ketsch,30,32
+2025-11-30,SG Nußloch,TV Hemsbach,23,29
+2025-11-30,SG Egg-Leo,TV Eppelheim,31,30
+2025-11-30,TV Brühl,HSV Hockenheim,31,30
+2025-12-06,TV Eppelheim,SG Neuth/Büche,30,28
+2025-12-06,TV Schriesheim,S3L Handball 3,39,25
+2025-12-06,TV Hemsbach,TV Brühl,35,27
+2025-12-07,TSG Ketsch,SG Nußloch,32,32
+2025-12-07,HSV Hockenheim,SG Egg-Leo,32,29
+2025-12-07,TSG Dossenheim,SG HD-Leimen,25,37
+2025-12-12,S3L Handball 3,TV Eppelheim,28,33
+2025-12-13,SG HD-Leimen,TV Schriesheim,32,24
+2025-12-13,SG Nußloch,TSG Dossenheim,28,24
+2025-12-13,SG Egg-Leo,TV Hemsbach,31,30
+2025-12-14,SG Neuth/Büche,HSV Hockenheim,31,32
+2025-12-14,TV Brühl,TSG Ketsch,27,20
+2025-12-20,TV Hemsbach,SG Neuth/Büche,25,27
+2026-01-11,SG Neuth/Büche,TV Hemsbach,31,29
+2026-01-17,TSG Dossenheim,TV Brühl,27,23
+2026-01-17,TV Schriesheim,TV Hemsbach,23,30
+2026-01-20,TV Eppelheim,SG HD-Leimen,27,31
+2026-01-24,S3L Handball 3,SG Nußloch,33,24
+2026-01-25,SG Neuth/Büche,TSG Dossenheim,30,30
+2026-01-25,SG Egg-Leo,TV Schriesheim,23,26
+2026-01-25,TV Brühl,SG HD-Leimen,32,30
+2026-01-31,SG HD-Leimen,SG Egg-Leo,31,28
+2026-01-31,TV Schriesheim,SG Neuth/Büche,28,26
+2026-01-31,TV Hemsbach,TV Eppelheim,26,27
+2026-02-01,HSV Hockenheim,S3L Handball 3,36,29
+2026-02-01,SG Nußloch,TV Brühl,26,26
+2026-02-07,TV Eppelheim,TSG Ketsch,37,27
+2026-02-08,SG Neuth/Büche,SG HD-Leimen,24,27
+2026-02-08,SG Egg-Leo,SG Nußloch,27,23
+2026-02-08,HSV Hockenheim,TV Hemsbach,27,25
+2026-02-21,TV Eppelheim,TSG Dossenheim,32,16
+2026-02-21,TV Hemsbach,S3L Handball 3,31,24
+2026-02-22,SG Nußloch,SG Neuth/Büche,21,24
+2026-02-22,TSG Ketsch,HSV Hockenheim,30,35
+2026-02-22,TV Brühl,SG Egg-Leo,31,28
+2026-02-28,S3L Handball 3,SG Egg-Leo,31,40
+2026-02-28,TV Hemsbach,TSG Ketsch,35,22
+2026-02-28,TV Eppelheim,TV Schriesheim,35,30
+2026-03-01,SG Neuth/Büche,TV Brühl,35,36
+2026-03-01,HSV Hockenheim,TSG Dossenheim,32,25
+2026-03-03,S3L Handball 3,TV Brühl,30,31
+2026-03-06,TV Schriesheim,HSV Hockenheim,30,25
+2026-03-07,S3L Handball 3,TSG Ketsch,23,38
+2026-03-08,SG HD-Leimen,TV Eppelheim,37,34
+2026-03-08,TSG Dossenheim,TV Hemsbach,27,30
+2026-03-08,SG Egg-Leo,SG Neuth/Büche,35,33
+2026-03-14,TV Eppelheim,SG Nußloch,25,24
+2026-03-15,SG Neuth/Büche,S3L Handball 3,29,32
+2026-03-15,TSG Ketsch,TSG Dossenheim,29,27
+2026-03-15,HSV Hockenheim,SG HD-Leimen,28,25
+2026-03-21,TV Schriesheim,TSG Ketsch,37,32
+2026-03-21,SG HD-Leimen,TV Hemsbach,34,38
+2026-03-21,S3L Handball 3,TSG Dossenheim,28,21
+2026-03-22,SG Nußloch,HSV Hockenheim,24,27
+2026-03-22,TV Brühl,TV Eppelheim,32,31
+2026-03-28,TSG Dossenheim,TV Schriesheim,34,30
+2026-03-28,TV Eppelheim,SG Egg-Leo,34,29
+2026-03-28,TV Hemsbach,SG Nußloch,22,29
+2026-03-29,TSG Ketsch,SG HD-Leimen,26,22
+2026-03-29,HSV Hockenheim,TV Brühl,29,30
+2026-04-11,S3L Handball 3,TV Schriesheim,26,30
+2026-04-11,SG HD-Leimen,TSG Dossenheim,35,32
+2026-04-12,SG Neuth/Büche,TV Eppelheim,25,32
+2026-04-12,SG Nußloch,TSG Ketsch,40,29
+2026-04-12,TV Brühl,TV Hemsbach,25,35
+2026-04-12,SG Egg-Leo,HSV Hockenheim,33,42
+2026-04-18,TSG Ketsch,TV Brühl,18,23
+2026-04-18,TV Schriesheim,SG HD-Leimen,20,20
+2026-04-18,TV Hemsbach,SG Egg-Leo,27,32
+2026-04-19,HSV Hockenheim,SG Neuth/Büche,37,37
+2026-04-19,TSG Dossenheim,SG Nußloch,24,23
+2026-04-25,S3L Handball 3,SG HD-Leimen,24,30
+2026-04-25,SG Egg-Leo,TSG Ketsch,33,24
+2026-04-25,SG Nußloch,TV Schriesheim,30,24
+2026-04-25,TV Eppelheim,HSV Hockenheim,26,27
+2026-04-26,TV Brühl,TSG Dossenheim,24,31
+2026-05-02,SG HD-Leimen,SG Nußloch,39,25
+2026-05-02,TSG Dossenheim,SG Egg-Leo,33,30
+2026-05-02,TSG Ketsch,SG Neuth/Büche,30,33
+2026-05-02,TV Schriesheim,TV Brühl,32,22

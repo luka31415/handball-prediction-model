@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "handball-match-prediction"
+version = "0.12.0"
+description = "Small, league-wide handball match prediction prototype"
+requires-python = ">=3.11"
+dependencies = [
+  "joblib>=1.3",
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "pypdf>=5.0",
+  "scikit-learn>=1.4",
+]
+
+[project.scripts]
+handball-predict = "handball_prediction.cli:main"
+handball-import-h4a = "handball_prediction.import_cli:main"
+handball-import-reports = "handball_prediction.report_cli:main"
+handball-tune-home-bonus = "handball_prediction.tune_home_bonus:main"
+handball-tune-home-goals = "handball_prediction.tune_home_goals:main"
+handball-simulate-championship = "handball_prediction.simulate_championship:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

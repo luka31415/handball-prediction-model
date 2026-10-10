@@ -1,0 +1,5 @@
+date,home_team,away_team,home_goals,away_goals,home_warnings,away_warnings,home_two_minute_penalties,away_two_minute_penalties,home_red_cards,away_red_cards,home_blue_cards,away_blue_cards,home_seven_meter_goals,away_seven_meter_goals,home_seven_meter_attempts,away_seven_meter_attempts,home_distinct_scorers,away_distinct_scorers,home_top_scorer_goals,away_top_scorer_goals,home_disciplinary_players,away_disciplinary_players,report_id
+2026-09-13,TV Brühl,TV Hemsbach,21,38,0,0,2,2,0,0,0,0,3,5,3,5,10,11,5,9,0,0,3498411
+2026-09-19,TV Eppelheim,TSV Rot-Malsch 2,31,24,0,0,7,5,1,2,0,0,2,2,5,3,10,10,8,5,1,2,3501856
+2026-09-20,SG Schwarzb.,TSG Ketsch,36,12,0,0,0,2,0,0,0,0,2,1,2,1,10,7,10,3,0,0,3504136
+2026-09-20,HSV Hockenheim,HSG BR/U'gromb,33,27,3,0,3,0,0,0,0,0,0,5,0,6,6,7,8,10,0,0,3504496

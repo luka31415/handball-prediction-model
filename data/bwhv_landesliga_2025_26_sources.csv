@@ -1,0 +1,9 @@
+season,competition,period_id,league_id,organization_group_id,verified_games,stats_file,player_events_file
+2025/26,Männer-Landesliga Staffel 1,137,146181,216,132,bwhv_landesliga_1_2025_26_stats.csv,bwhv_landesliga_1_2025_26_player_events.csv
+2025/26,Männer-Landesliga Staffel 2,137,146196,216,132,bwhv_landesliga_2_2025_26_stats.csv,bwhv_landesliga_2_2025_26_player_events.csv
+2025/26,Männer-Landesliga Staffel 3,137,146211,216,132,bwhv_landesliga_3_2025_26_stats.csv,bwhv_landesliga_3_2025_26_player_events.csv
+2025/26,Männer-Landesliga Staffel 4,137,146221,216,130,bwhv_landesliga_4_2025_26_stats.csv,bwhv_landesliga_4_2025_26_player_events.csv
+2025/26,Männer-Landesliga Staffel 5,137,146226,216,131,bwhv_landesliga_5_2025_26_stats.csv,bwhv_landesliga_5_2025_26_player_events.csv
+2025/26,Männer-Landesliga Staffel 6,137,146231,216,132,bwhv_landesliga_6_2025_26_stats.csv,bwhv_landesliga_6_2025_26_player_events.csv
+2025/26,Männer-Landesliga Staffel 7,137,146241,216,128,bwhv_landesliga_7_2025_26_stats.csv,bwhv_landesliga_7_2025_26_player_events.csv
+2025/26,Männer-Landesliga Staffel 8,137,146251,216,129,tv_eppelheim_2025_26_stats.csv,tv_eppelheim_2025_26_player_events.csv

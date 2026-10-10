@@ -1,0 +1,4 @@
+date,home_team,away_team,home_goals,away_goals,home_warnings,away_warnings,home_two_minute_penalties,away_two_minute_penalties,home_red_cards,away_red_cards,home_blue_cards,away_blue_cards,home_seven_meter_goals,away_seven_meter_goals,home_seven_meter_attempts,away_seven_meter_attempts,home_distinct_scorers,away_distinct_scorers,home_top_scorer_goals,away_top_scorer_goals,home_disciplinary_players,away_disciplinary_players,report_id
+2026-09-18,HC MA-Vogelst.,TV Schriesheim 2,25,16,0,0,2,3,0,0,0,0,4,4,4,6,10,10,4,3,0,0,3498531
+2026-09-19,TV Eppelheim 2,TSV Steinsfurt,39,30,2,0,5,11,0,3,0,1,6,4,8,4,11,8,11,11,0,2,3501386
+2026-09-19,Spvgg Ilvesh.,TSV Wieblingen 2,20,26,0,0,6,3,1,0,0,0,0,2,0,3,6,10,6,7,1,0,3501616

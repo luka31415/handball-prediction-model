@@ -1,0 +1,44 @@
+date,home_team,away_team,home_goals,away_goals,home_warnings,away_warnings,home_two_minute_penalties,away_two_minute_penalties,home_red_cards,away_red_cards,home_blue_cards,away_blue_cards,home_seven_meter_goals,away_seven_meter_goals,home_seven_meter_attempts,away_seven_meter_attempts,home_distinct_scorers,away_distinct_scorers,home_top_scorer_goals,away_top_scorer_goals,home_disciplinary_players,away_disciplinary_players,report_id
+2025-09-20,TV Edingen 2,HSG Wein-Oberf 2,25,25,2,1,3,1,0,1,0,0,2,5,5,7,7,8,10,8,0,1,3061781
+2025-09-21,TV Schriesheim 3,TSV Birkenau 2,29,29,2,2,2,3,0,0,0,0,7,2,8,3,7,6,13,11,0,0,3071041
+2025-09-27,HSG Wein-Oberf 2,SKV Sandhofen 2,27,31,1,3,4,3,0,0,0,0,4,4,4,6,6,6,8,11,0,0,3079596
+2025-10-04,TSG Seckenheim,SG MTG/PSV MA 2,27,26,2,2,2,3,0,1,0,0,6,3,11,5,7,11,9,5,0,1,3097026
+2025-10-11,SG MTG/PSV MA 2,SKV Sandhofen 2,32,22,4,1,4,3,0,0,0,0,1,3,2,3,12,8,7,5,0,0,3112321
+2025-10-12,LSV Ladenburg,TV Schriesheim 3,23,25,3,2,1,1,0,0,0,0,4,3,5,5,7,6,8,10,0,0,3122346
+2025-10-18,TSV Birkenau 2,HSG Wein-Oberf 2,31,19,0,2,1,3,0,0,0,0,4,0,5,0,8,6,8,6,0,0,3126661
+2025-10-19,TV Edingen 2,SG MTG/PSV MA 2,25,23,2,1,1,3,0,0,0,0,6,1,7,2,8,7,7,6,0,0,3131651
+2025-10-25,HSG Wein-Oberf 2,LSV Ladenburg,26,26,0,1,2,1,0,0,0,0,4,4,6,5,9,9,7,7,0,0,3133256
+2025-11-01,SKV Sandhofen 2,TSG Seckenheim,30,36,1,1,2,2,1,0,0,0,3,4,5,5,10,8,9,9,1,0,3140111
+2025-11-02,TV Schriesheim 3,SG MTG/PSV MA 2,22,30,0,0,1,4,0,0,0,0,8,7,9,7,7,9,14,11,0,0,3144031
+2025-11-08,TSG Seckenheim,TV Schriesheim 3,33,32,3,2,3,2,0,0,0,0,3,7,5,7,8,9,7,14,0,0,3154341
+2025-11-15,SKV Sandhofen 2,TV Edingen 2,29,28,1,2,1,1,0,0,0,0,5,3,6,3,10,7,10,6,0,0,3174756
+2025-11-15,TSV Birkenau 2,SG MTG/PSV MA 2,30,27,3,3,0,0,0,0,0,0,1,3,2,4,5,8,11,8,0,0,3175256
+2025-11-23,TV Edingen 2,TV Schriesheim 3,22,16,3,3,1,3,0,0,0,0,3,4,6,5,8,9,6,6,0,0,3202161
+2025-11-29,TV Schriesheim 3,SKV Sandhofen 2,40,27,0,2,2,2,0,0,0,0,0,2,1,4,8,8,10,6,0,0,3208271
+2025-11-29,HSG Wein-Oberf 2,SG MTG/PSV MA 2,32,34,0,0,3,3,2,0,0,0,6,7,8,8,7,10,9,8,2,0,3209486
+2025-12-07,TV Edingen 2,TSV Birkenau 2,21,25,2,2,2,2,0,0,0,0,3,6,4,8,5,5,7,9,0,0,3235349
+2025-12-13,TSV Birkenau 2,SKV Sandhofen 2,35,17,3,2,2,3,0,0,0,0,3,1,4,2,8,7,7,3,0,0,3240233
+2026-01-18,TSG Seckenheim,TSV Birkenau 2,32,33,2,2,3,1,0,0,0,0,3,3,6,4,10,6,13,10,0,0,3277485
+2026-01-25,SG MTG/PSV MA 2,TSG Seckenheim,28,29,3,2,3,2,0,0,0,0,6,5,6,8,8,9,7,12,0,0,3288869
+2026-01-25,HSG Wein-Oberf 2,TV Schriesheim 3,28,27,3,1,4,2,0,1,0,0,2,4,3,7,8,8,8,7,0,1,3291309
+2026-02-07,HSG Wein-Oberf 2,TSV Birkenau 2,24,32,3,1,3,1,0,0,0,0,3,6,7,7,9,8,7,7,0,0,3311941
+2026-02-21,TV Schriesheim 3,HSG Wein-Oberf 2,31,20,3,3,4,6,1,0,0,0,6,3,7,6,7,6,13,8,1,0,3328491
+2026-02-22,SKV Sandhofen 2,SG MTG/PSV MA 2,36,30,1,1,4,4,0,0,0,0,5,3,6,5,9,9,14,6,0,0,3337971
+2026-02-22,TV Edingen 2,TSG Seckenheim,35,25,2,1,0,1,0,0,0,0,0,2,1,6,10,8,9,10,0,0,3338401
+2026-02-28,SG MTG/PSV MA 2,TV Schriesheim 3,27,29,0,0,2,2,0,0,0,0,3,6,3,9,11,6,6,8,0,0,3347246
+2026-03-07,TV Schriesheim 3,TSG Seckenheim,33,24,2,0,5,4,0,0,0,0,4,2,5,6,9,7,9,5,0,0,3366126
+2026-03-14,SG MTG/PSV MA 2,TSV Birkenau 2,30,39,3,2,1,0,0,0,0,0,1,5,1,6,8,8,11,12,0,0,3385016
+2026-03-15,TSG Seckenheim,HSG Wein-Oberf 2,27,33,1,2,2,1,0,0,0,0,1,3,1,3,8,10,11,8,0,0,3391726
+2026-03-15,TV Edingen 2,SKV Sandhofen 2,38,18,1,2,0,4,0,0,0,0,5,1,6,3,11,7,10,6,0,0,3395011
+2026-03-21,TSV Birkenau 2,TSG Seckenheim,42,33,3,0,3,4,1,0,0,0,4,6,4,11,10,7,9,9,1,0,3400921
+2026-03-22,TV Schriesheim 3,TV Edingen 2,30,23,2,0,4,3,0,0,0,0,0,6,3,7,7,8,11,10,0,0,3411211
+2026-03-28,TSG Seckenheim,TV Edingen 2,39,54,1,2,5,2,1,0,0,0,1,7,1,8,9,10,8,10,1,0,3414476
+2026-03-28,SKV Sandhofen 2,TV Schriesheim 3,23,33,0,2,7,0,0,0,0,0,2,7,3,8,9,5,6,14,0,0,3415156
+2026-03-29,SG MTG/PSV MA 2,HSG Wein-Oberf 2,34,35,1,1,3,4,0,0,0,0,5,3,7,5,8,7,8,12,0,0,3417091
+2026-04-11,TSV Birkenau 2,TV Edingen 2,32,23,2,4,0,2,0,0,0,0,3,5,5,8,8,7,6,8,0,0,3419381
+2026-04-11,HSG Wein-Oberf 2,TSG Seckenheim,42,32,1,2,3,3,2,2,0,0,5,5,7,6,10,9,8,8,2,2,3419716
+2026-04-18,SKV Sandhofen 2,TSV Birkenau 2,26,24,2,2,6,1,0,0,0,0,6,3,7,3,7,7,6,10,0,0,3428691
+2026-04-25,TSV Birkenau 2,TV Schriesheim 3,29,32,2,1,1,4,0,0,0,0,5,3,6,8,6,8,7,7,0,0,3440551
+2026-04-25,HSG Wein-Oberf 2,TV Edingen 2,35,36,2,1,4,2,0,0,0,0,3,2,4,3,7,12,10,6,0,0,3442596
+2026-05-02,SKV Sandhofen 2,HSG Wein-Oberf 2,36,29,2,2,1,3,0,0,0,0,2,5,5,8,9,6,7,9,0,0,3457011
+2026-05-03,SG MTG/PSV MA 2,TV Edingen 2,33,42,3,2,5,5,0,0,0,0,10,5,11,8,9,11,8,7,0,0,3460806
