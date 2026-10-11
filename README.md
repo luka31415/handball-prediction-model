@@ -17,7 +17,7 @@ die Berechnung in `handball-calibrate-league-step` und die vollständige
 Auswertung in `reports/update_2026-10-11_transition_calibration.md`.
 
 Im unveränderten chronologischen Test auf 408 regionalen Ligaspielen verbessert
-sich der Log Loss von 0,765 auf 0,763. Die Accuracy bleibt mit 64,7 % praktisch
+sich der Log Loss von 0,765 auf 0,763. Die Accuracy bleibt mit 65,0 % praktisch
 auf demselben Niveau. Das neu trainierte Modell liegt unter
 `models/handball_model_v013.pkl`.
 
