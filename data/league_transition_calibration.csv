@@ -1,0 +1,23 @@
+season,division,movement,team,games,wins,draws,losses,points,source_url
+2021_22,1,promoted,Handball Sport Verein Hamburg,34,12,2,20,26,https://de.wikipedia.org/wiki/Handball-Bundesliga_2021/22
+2021_22,1,promoted,TuS N-Lübbecke,34,7,0,27,14,https://de.wikipedia.org/wiki/Handball-Bundesliga_2021/22
+2022_23,1,promoted,VfL Gummersbach,34,15,3,16,33,https://de.wikipedia.org/wiki/Handball-Bundesliga_2022/23
+2022_23,1,promoted,ASV Hamm-Westfalen,34,3,2,29,8,https://de.wikipedia.org/wiki/Handball-Bundesliga_2022/23
+2023_24,1,promoted,ThSV Eisenach,34,11,2,21,24,https://de.wikipedia.org/wiki/Handball-Bundesliga_2023/24
+2023_24,1,promoted,HBW Balingen-Weilstetten,34,5,3,26,13,https://de.wikipedia.org/wiki/Handball-Bundesliga_2023/24
+2024_25,1,promoted,SG BBM Bietigheim,34,7,3,24,17,https://de.wikipedia.org/wiki/Handball-Bundesliga_2024/25
+2024_25,1,promoted,1. VfL Potsdam,34,3,0,31,6,https://de.wikipedia.org/wiki/Handball-Bundesliga_2024/25
+2025_26,1,promoted,Bergischer HC,34,9,4,21,22,https://de.wikipedia.org/wiki/Handball-Bundesliga_2025/26
+2025_26,1,promoted,GWD Minden,34,6,5,23,17,https://de.wikipedia.org/wiki/Handball-Bundesliga_2025/26
+2021_22,2,relegated,HSG Nordhorn-Lingen,38,23,0,15,46,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2021/22
+2021_22,2,relegated,TUSEM Essen,38,19,3,16,41,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2021/22
+2021_22,2,relegated,HSC 2000 Coburg,38,16,3,19,35,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2021/22
+2021_22,2,relegated,Die Eulen Ludwigshafen,38,14,6,18,34,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2021/22
+2022_23,2,relegated,HBW Balingen-Weilstetten,36,25,6,5,56,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2022/23
+2022_23,2,relegated,TuS N-Lübbecke,36,22,3,11,47,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2022/23
+2023_24,2,relegated,ASV Hamm-Westfalen,34,22,1,11,45,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2023/24
+2023_24,2,relegated,GWD Minden,34,11,5,18,27,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2023/24
+2024_25,2,relegated,Bergischer HC,34,28,2,4,58,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2024/25
+2024_25,2,relegated,HBW Balingen-Weilstetten,34,20,4,10,44,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2024/25
+2025_26,2,relegated,SG BBM Bietigheim,34,26,4,4,56,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2025/26
+2025_26,2,relegated,1. VfL Potsdam,34,20,6,8,46,https://de.wikipedia.org/wiki/2._Handball-Bundesliga_2025/26

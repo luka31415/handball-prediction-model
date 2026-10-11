@@ -4,6 +4,7 @@ import argparse
 
 from pathlib import Path
 
+from .calibrate_league_step import DEFAULT_CALIBRATED_LEAGUE_ELO_STEP
 from .data import discover_training_files, load_many_matches, load_team_context
 from .model import HandballModel
 
@@ -23,8 +24,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--league-elo-step",
         type=float,
-        default=75.0,
-        help="Starting-Elo gap between adjacent league levels (default: 75)",
+        default=DEFAULT_CALIBRATED_LEAGUE_ELO_STEP,
+        help=(
+            "Starting-Elo gap between adjacent league levels "
+            f"(default: {DEFAULT_CALIBRATED_LEAGUE_ELO_STEP:.0f})"
+        ),
     )
     model_group = parser.add_mutually_exclusive_group()
     model_group.add_argument("--save-model", help="Optional path for the trained model")

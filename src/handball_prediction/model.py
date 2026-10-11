@@ -12,6 +12,7 @@ from sklearn.metrics import accuracy_score, log_loss
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import FunctionTransformer, StandardScaler
 
+from .calibrate_league_step import DEFAULT_CALIBRATED_LEAGUE_ELO_STEP
 from .features import (
     CONTINUOUS_FEATURE_COLUMNS,
     FEATURE_COLUMNS,
@@ -98,7 +99,7 @@ class HandballModel:
         home_elo_bonus: float = 55.0,
         home_goal_adjustment: float = 0.8,
         elo_k: float = 32.0,
-        league_elo_step: float = 75.0,
+        league_elo_step: float = DEFAULT_CALIBRATED_LEAGUE_ELO_STEP,
         regularization_c: float = 0.015,
     ) -> None:
         if league_elo_step < 0:

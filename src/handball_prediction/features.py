@@ -6,6 +6,8 @@ from dataclasses import dataclass, field
 import numpy as np
 import pandas as pd
 
+from .calibrate_league_step import DEFAULT_CALIBRATED_LEAGUE_ELO_STEP
+
 
 BASE_FEATURE_COLUMNS = [
     "elo_diff",
@@ -76,7 +78,7 @@ class FeatureBuilder:
         home_elo_bonus: float = 55.0,
         home_goal_adjustment: float = 0.8,
         elo_k: float = 32.0,
-        league_elo_step: float = 75.0,
+        league_elo_step: float = DEFAULT_CALIBRATED_LEAGUE_ELO_STEP,
         team_context: pd.DataFrame | None = None,
     ):
         self.home_elo_bonus = home_elo_bonus
@@ -314,7 +316,7 @@ def build_training_table(
     home_elo_bonus: float = 55.0,
     home_goal_adjustment: float = 0.8,
     elo_k: float = 32.0,
-    league_elo_step: float = 75.0,
+    league_elo_step: float = DEFAULT_CALIBRATED_LEAGUE_ELO_STEP,
     team_context: pd.DataFrame | None = None,
 ) -> tuple[pd.DataFrame, FeatureBuilder]:
     """Create leakage-free features: every row sees only earlier matches."""

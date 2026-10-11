@@ -1,9 +1,25 @@
-# Handball Match Prediction – lokaler Prototyp (v0.12, 10.10.2026)
+# Handball Match Prediction – lokaler Prototyp (v0.13, 11.10.2026)
 
 Dieses kleine Projekt sagt Spiele aus mehreren Herrenligen voraus. Trainiert wird
 aktuell mit allen Rhein-Neckar-Herrenligen der Saison 2025/26 sowie den
 relevanten aktuellen Ligen der Herren 1 und Herren 2 des TV Eppelheim.
 Mannschaftsnamen sind nicht fest im Code eingebaut.
+
+## Update 11.10.2026
+
+Die Start-Elo-Distanz benachbarter Ligen ist jetzt aus einer zusätzlichen,
+mehrjährigen Stichprobe kalibriert. Verwendet werden 22 Auf- und Absteiger aus
+der 1. und 2. Bundesliga in den Spielzeiten 2021/22 bis 2025/26. Nach dem
+Entfernen der direkten Duelle innerhalb der Wechselgruppen ergibt sich ein
+Elo-Abstand von 137,8 Punkten; der Modellstandard wurde reproduzierbar auf 140
+gerundet. Die Quelldaten stehen in `data/league_transition_calibration.csv`,
+die Berechnung in `handball-calibrate-league-step` und die vollständige
+Auswertung in `reports/update_2026-10-11_transition_calibration.md`.
+
+Im unveränderten chronologischen Test auf 408 regionalen Ligaspielen verbessert
+sich der Log Loss von 0,765 auf 0,763. Die Accuracy bleibt mit 64,7 % praktisch
+auf demselben Niveau. Das neu trainierte Modell liegt unter
+`models/handball_model_v013.pkl`.
 
 ## Update 10.10.2026
 
@@ -17,8 +33,8 @@ Der Modellstand wurde neu trainiert und für das nächste Spiel der zweiten Herr
   rollierende Karten-, Zeitstrafen-, 7-Meter- und Spielerwerte,
 - berücksichtigt über die mittlere Elo der letzten fünf Gegner auch die
   bisherige Stärke des Spielplans,
-- initialisiert Mannschaften abhängig von ihrer Ligastufe zwischen 1350 und
-  1725 Elo und erkennt Auf- sowie Absteiger beim Saisonwechsel; für Eppelheim
+- initialisiert Mannschaften abhängig von ihrer Ligastufe zwischen 1220 und
+  1920 Elo und erkennt Auf- sowie Absteiger beim Saisonwechsel; für Eppelheim
   ist nun auch der Übergang von 2024/25 auf 2025/26 hinterlegt,
 - führt den allgemeinen Heimvorteil als sichtbares Merkmal
   `has_home_advantage` statt als versteckten Intercept,
@@ -237,8 +253,8 @@ aus Tabellenständen erraten, sondern erst ergänzt, wenn Heimteam, Auswärtstea
 und Endstand eindeutig aus einer offiziellen Quelle hervorgehen.
 
 Die Verbandsliga 2023/24 besitzt als höchste im Bestand vorkommende Spielklasse
-die Ligastufe 6 und damit 1725 Start-Elo. Die Landesliga beginnt bei Stufe 5
-mit 1650 Elo. Der spätere Abstieg von Eppelheim 1 ist im Saisonkontext separat
+die Ligastufe 6 und damit 1920 Start-Elo. Die Landesliga beginnt bei Stufe 5
+mit 1780 Elo. Der spätere Abstieg von Eppelheim 1 ist im Saisonkontext separat
 markiert.
 
 Zum lokalen Training lässt sich der verifizierte Bestand bereits chronologisch
@@ -263,7 +279,7 @@ python -m venv .venv
 source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 python -m pip install -e .
-handball-predict --load-model models/handball_model_v012.pkl --home "SG Nußloch 2" --away "TV Eppelheim 2"
+handball-predict --load-model models/handball_model_v013.pkl --home "SG Nußloch 2" --away "TV Eppelheim 2"
 ```
 
 Tests:
@@ -274,7 +290,7 @@ python -m unittest discover -s tests -v
 
 ## Stand
 
-Quellcode, kuratierte Daten, das gespeicherte v0.12-Modell und die aktuellen
+Quellcode, kuratierte Daten, das gespeicherte v0.13-Modell und die aktuellen
 Berichte sind im Repository enthalten. Der aktuelle Modellstand und seine
 Datenabdeckung sind in [`reports/update_2026-10-10.md`](reports/update_2026-10-10.md)
 dokumentiert. Neue Änderungen werden gesammelt am Ende der Woche committed.

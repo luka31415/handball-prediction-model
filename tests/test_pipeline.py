@@ -6,6 +6,10 @@ from tempfile import TemporaryDirectory
 
 import pandas as pd
 
+from handball_prediction.calibrate_league_step import (
+    DEFAULT_CALIBRATED_LEAGUE_ELO_STEP,
+    estimate_league_elo_step,
+)
 from handball_prediction.data import (
     discover_training_files,
     load_many_matches,
@@ -139,13 +143,24 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual(len(FEATURE_COLUMNS), 16)
 
     def test_starting_elo_depends_on_league_level(self) -> None:
-        builder = FeatureBuilder(league_elo_step=75.0)
+        builder = FeatureBuilder()
 
         builder.features_for("High A", "High B", season="2025_26", league_level=6)
         builder.features_for("Low A", "Low B", season="2025_26", league_level=1)
 
-        self.assertEqual(builder.states["High A"].elo, 1725.0)
-        self.assertEqual(builder.states["Low A"].elo, 1350.0)
+        self.assertEqual(builder.states["High A"].elo, 1920.0)
+        self.assertEqual(builder.states["Low A"].elo, 1220.0)
+
+    def test_league_step_is_reproducible_from_transition_data(self) -> None:
+        rows = pd.read_csv(ROOT / "data" / "league_transition_calibration.csv")
+        calibration = estimate_league_elo_step(rows)
+
+        self.assertEqual(calibration.teams, 22)
+        self.assertEqual(calibration.seasons, 5)
+        self.assertAlmostEqual(calibration.raw_elo_step, 137.8264, places=3)
+        self.assertEqual(
+            calibration.rounded_elo_step, DEFAULT_CALIBRATED_LEAGUE_ELO_STEP
+        )
 
     def test_promotion_and_relegation_are_set_on_season_transition(self) -> None:
         builder = FeatureBuilder()
@@ -168,7 +183,7 @@ class PipelineTest(unittest.TestCase):
         builder = FeatureBuilder(team_context=context)
         builder.apply_latest_team_context()
 
-        self.assertEqual(builder.states["TV Friedrichsf"].elo, 1650.0)
+        self.assertEqual(builder.states["TV Friedrichsf"].elo, 1780.0)
         self.assertEqual(builder.states["TV Schriesheim 2"].promoted, 1.0)
         self.assertEqual(builder.states["TV Eppelheim 2"].relegated, 1.0)
 

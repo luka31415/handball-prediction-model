@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "handball-match-prediction"
-version = "0.12.0"
+version = "0.13.0"
 description = "Small, league-wide handball match prediction prototype"
 requires-python = ">=3.11"
 dependencies = [
@@ -22,6 +22,7 @@ handball-import-reports = "handball_prediction.report_cli:main"
 handball-tune-home-bonus = "handball_prediction.tune_home_bonus:main"
 handball-tune-home-goals = "handball_prediction.tune_home_goals:main"
 handball-simulate-championship = "handball_prediction.simulate_championship:main"
+handball-calibrate-league-step = "handball_prediction.calibrate_league_step:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
